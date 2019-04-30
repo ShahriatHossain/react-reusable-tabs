@@ -10,7 +10,7 @@ import React from 'react'
 
 import { Tab } from 'react-reusable-tabs'
 
-
+<code>
 const App = () => (
     <div className="App">
 <Tab
@@ -24,6 +24,8 @@ const App = () => (
   	liveEvents={this.getLiveEvents}
 	/>
 );
+	    </div>
+<code>
 	
 // initiate default tab
 
@@ -129,9 +131,11 @@ export const getMachineTabs = () => {
 ##Installation
 
 ##npm
+
 npm i react-reusable-tabs --save
 
 ##yarn
+
 yarn add react-reusable-tabs 
  
  
