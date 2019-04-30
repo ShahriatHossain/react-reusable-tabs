@@ -10,9 +10,9 @@ import React from 'react'
 
 import { Tab } from 'react-reusable-tabs'
 
-<code>
-const App = () => (
-    <div className="App">
+
+"const App = () => (
+    
 <Tab
 	tabTitle="Machine Details"
   	tabDescription="This tab for machine details"
@@ -23,9 +23,9 @@ const App = () => (
   	events={this.getEvents}
   	liveEvents={this.getLiveEvents}
 	/>
-);
-	    </div>
-<code>
+);"
+	    
+
 	
 // initiate default tab
 
