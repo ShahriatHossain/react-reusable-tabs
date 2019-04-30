@@ -63,7 +63,7 @@ https://reusable-table-component.firebaseapp.com/machines/59d9f4b4-018f-43d8-92d
 
 // prepare machine details
 
-    ## getDetail = () => {
+## getDetail = () => {
         if (!this.props.machine) return 'No record found.';
 
         const labels = Object.keys(this.props.machine);
@@ -78,9 +78,9 @@ https://reusable-table-component.firebaseapp.com/machines/59d9f4b4-018f-43d8-92d
         return details.length > 0 ? details : 'No record found.';
    ## }
 
-    // prepare events for machine
+// prepare events for machine
     
-    ## getEvents = () => {
+## getEvents = () => {
         if (!this.props.machine) return 'No record found.';
 
         const details = this.props.machine.events.map((e, i) => {
@@ -94,9 +94,9 @@ https://reusable-table-component.firebaseapp.com/machines/59d9f4b4-018f-43d8-92d
         return details.length > 0 ? details : 'No record found.';
    ## }
 
-    // prepare live events for machine
+ // prepare live events for machine
     
-   ## getLiveEvents = () => {
+ ## getLiveEvents = () => {
         if (!this.props.liveEvents) return 'No record found.';
 
         const details = this.props.liveEvents.filter(lv => lv.machine_id === this.props.machine.id).map((e, i) => {
