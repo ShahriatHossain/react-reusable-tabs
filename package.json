@@ -1,0 +1,40 @@
+{
+  "name": "react-reusable-tabs",
+  "version": "1.0.4",
+  "description": "Reactjs reusable tabs",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahriatHossain/react-reusable-tabs-support.git"
+  },
+  "keywords": [
+    "react reusable tab",
+    "react tab component"
+  ],
+  "author": "Shahriat Hossain <somel90@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ShahriatHossain/react-reusable-tabs-support/issues"
+  },
+  "homepage": "https://github.com/ShahriatHossain/react-reusable-tabs-support#readme",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "styled-components": "^4.2.0"
+  }
+}
